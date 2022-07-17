@@ -1,0 +1,181 @@
+body{
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+  display: flex;
+align-items: center;
+justify-content: center;
+}
+ul{
+  margin:0;
+  padding:0;
+}
+nav{
+  margin-top: 20px;
+}
+header{
+  background:rgb(0 0 85);
+  color:#ffffff;
+  padding-top:10px;
+  padding-bottom:10px;
+  min-height:30px;
+  border-bottom:rgb(0 0 85) 3px solid;
+}
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:16px;
+}
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+header #branding h1{
+  margin:0;
+}
+header .highlight{
+  color:skyblue ;
+  font-weight:bold;
+  margin-right:   200px;
+}
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+#showcase{
+  min-height:400px;
+  background:url('df.jpg') no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align:center;
+  color:rgb(126 126 126);
+}
+#showcase h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+}
+
+#showcase p{
+  font-size:20px;
+}
+#boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+.dark{
+  background:rgb(0 0 85);
+  color:#ffffff;
+  margin-bottom:10px;
+  padding:10px;
+  margin-left: 20px;
+}
+.dark ul{
+	text-align:left;
+	margin:10px;
+}
+article#main-col{
+  float:left;
+  width:65%;
+}
+footer{
+  padding:1px;
+  margin-top:30px;
+  color:#ffffff;
+  background-color:rgb(0 0 85);
+  text-align: center;
+}
+.presentation{
+  position: absolute;
+  bottom: 100px;
+  font-size:  50px;
+  color:  blue  ;
+  margin-left:  20px;
+  font-family:  roboto;
+
+}
+.image-topbar {
+  height: 300px;
+  background: no-repeat center / cover url('c.jpg');
+}
+.article-img{
+  width: 500px;
+}
+.article-img{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 500px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 20px;
+
+}
+.article{
+  position: relative;
+  margin: 40px 0;
+  margin-left: 20px;
+  padding-left: 520px;
+  min-height: 210;
+    margin-bottom: 190px;
+}
+.article p{
+  justify-content: center;
+font-family: roboto;
+}
+.article-titre{
+  font-size: 30px;
+  font-family: roboto;
+}
+.titre_prodruit{
+  margin-left: 20px;
+}
+.titre_prodruit h1{
+  border-bottom: 1px solid blue;
+  width: 250px;
+
+}
+.service{
+  width: 100%;
+  height: auto;
+  color:#ffffff;
+  background-color:rgb(0 0 85);
+  margin-left: 20x;
+}
+.img-ton-bown{
+  display: flex;
+  margin-left: 20px;
+
+}
+.img-ton-bown-items{
+  margin-left: 20px;
+}
+.image-topbar-items{
+  margin-left: 20px;
+  font-size: 26px;
+}
+.img-ton-bown img{
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+.fourniture{
+  margin-left: 20px;
+  font-size: 30px;
+  font-family: roboto;
+}
